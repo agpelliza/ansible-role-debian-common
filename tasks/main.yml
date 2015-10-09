@@ -1,0 +1,9 @@
+---
+- name: upgrade
+  apt:
+    upgrade: full
+    force: yes
+    update_cache: yes
+    cache_valid_time: 86400
+  sudo: yes
+  when: ansible_os_family == 'Debian'

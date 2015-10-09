@@ -1,0 +1,15 @@
+---
+dependencies: []
+
+galaxy_info:
+  author: agpelliza
+  description: Debian common packages installation.
+  license: "license (BSD, MIT)"
+  min_ansible_version: 1.4
+  platforms:
+  - name: Debian
+    versions:
+    - all
+  categories:
+    - development
+    - environment
